@@ -1,0 +1,12 @@
+name:вапвап
+middlename:вапвап
+surname:вапвап
+email:tornikea19@gmail.com
+password:82862j7hd6wveKp
+confirmPassword:82862j7hd6wveKp
+role:admin
+reputation:6
+regDate:2021-11-09
+lic:yes
+a:Отправить логин и пароль на Email
+ot:

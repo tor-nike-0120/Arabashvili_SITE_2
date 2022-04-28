@@ -1,0 +1,12 @@
+name:Ивано
+middlename:Иванович
+surname:Иванов
+email:ivanov@gmail.com
+password:njrtnjrt2244
+confirmPassword:njrtnjrt2244
+role:moderator
+reputation:3
+regDate:2021-10-27
+lic:yes
+a:Отправить логин и пароль на Email
+ot:

@@ -1,0 +1,160 @@
+body {
+    background-color: white;
+}
+
+.navbar{
+    padding-top: 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar{
+    margin-bottom: 20px;
+}
+
+/*------------INDEX-------------*/
+
+.id-a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+    opacity: 60%;
+    transition: opacity 0.3s linear
+}
+
+.id-a:hover{
+    opacity: 100%;
+    color: black;
+    transition: opacity 0.3s linear;
+}
+
+.img_maga{
+    border: black solid 5px;
+}
+
+.article-img
+{
+  margin-bottom: 20px;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.article-img.active
+{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.image
+{
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.poster::after
+{
+display: block;
+position: absolute;
+background-color: #ffffff;
+
+content: attr(data-label);
+
+color: black;
+bottom: 12%;
+right: 38%; /* подгон по расположению*/
+opacity: 1;
+}
+
+h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+.ph{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+p{
+    text-align: justify;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.link-img{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.link-img:hover{
+    height: 55px;
+    margin-bottom: 0;
+}
+
+/*------------TABLE_AND_GRAPH-------------*/
+
+td,th{
+    border: black solid 1px;
+}
+
+.song-name{
+    background-color: #E1E1E1;
+}
+
+.table-head{
+    background-color: #E1E1E1;
+}
+
+.table-string{
+    transition: background-color 0.1s linear;
+}
+
+.table-string:hover .pro{
+    background-color: #8CC78A;
+    transition: background-color 0.1s linear;
+}
+
+.table-string:hover .like{
+    background-color: #4B8EC4;
+    transition: background-color 0.1s linear;
+}
+
+.table-string:hover .dislike{
+    background-color: #CB6465;
+    transition: background-color 0.1s linear;
+}
+
+.table-string:hover .com{
+    background-color: #E18B0D;
+    transition: background-color 0.1s linear;
+}
+
+/*------------NOTES-------------*/
+
+.card{
+    margin-bottom: 20px;
+    border: black dashed; 3px;
+}
+
+.col-12:first-child > .card > .card-body > h5{
+    font-weight: bolder;
+}
+
+.col-12:first-child > .card{
+    border: black solid 3px;
+}
+
+/*------------ANKETA-------------*/
+
+textarea{
+    resize: none;
+}
